@@ -11,7 +11,7 @@ const Navigation = () => {
     const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' | null;
     const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     const initialTheme = savedTheme || systemTheme;
-    
+
     setTheme(initialTheme);
     document.documentElement.classList.toggle('dark', initialTheme === 'dark');
   }, []);
@@ -40,7 +40,11 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center space-x-2">
-            <img height="13%" width="13%" alt="logo" src={Logo}/>
+              <img
+                src={Logo}
+                alt="logo"
+                className="h-20 w-20 sm:h-25 sm:w-25 md:h-20 md:w-20 lg:h-25 lg:w-25"
+              />
             </div>
           </div>
 
@@ -70,7 +74,7 @@ const Navigation = () => {
             >
               <ThemeIcon className="w-5 h-5" />
             </button>
-            <Button 
+            <Button
               onClick={() => scrollToSection('contact')}
               className="btn-primary"
             >
@@ -117,7 +121,7 @@ const Navigation = () => {
               >
                 Über uns
               </button>
-              <Button 
+              <Button
                 onClick={() => scrollToSection('contact')}
                 className="btn-primary w-full"
               >

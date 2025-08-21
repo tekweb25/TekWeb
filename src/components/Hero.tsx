@@ -68,6 +68,10 @@ const Hero = () => {
                 <div className="text-2xl font-bold text-primary">24/7</div>
                 <div className="text-sm text-text-secondary">Support</div>
               </div>
+              <div>
+                <div className="text-2xl font-bold text-primary">Top</div>
+                <div className="text-sm text-text-secondary">Preis-Leistung</div>
+              </div>
             </div>
           </div>
 

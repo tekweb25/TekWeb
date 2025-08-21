@@ -1,9 +1,9 @@
 import React from 'react';
-import { 
-  Zap, 
-  Shield, 
-  Dumbbell, 
-  Headphones, 
+import {
+  Zap,
+  Shield,
+  Dumbbell,
+  Headphones,
   Sparkles,
   Star
 } from 'lucide-react';
@@ -70,7 +70,7 @@ const About = () => {
             {benefits.map((benefit, index) => {
               const IconComponent = benefit.icon;
               const isEven = index % 2 === 0;
-              
+
               return (
                 <div
                   key={benefit.title}
@@ -109,7 +109,7 @@ const About = () => {
             {testimonials.map((testimonial, index) => (
               <div
                 key={testimonial.name}
-                className="card-professional p-8 group hover:-translate-y-2 transition-all duration-300 w-1/3"
+                className="card-professional p-8 group hover:translate-y-2 transition-all duration-300 w-full sm:w-2/3 md:w-1/2 lg:w-1/3"
               >
                 {/* Rating */}
                 <div className="flex justify-center mb-4">
