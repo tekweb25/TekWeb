@@ -40,7 +40,7 @@ const About = () => {
   const testimonials = [
     {
       name: 'Salih Tekin',
-      role: 'TekWeb-CEO',
+      role: 'TekSign-CEO',
       content: 'Herzlich willkommen bei TekWeb. Als Geschäftsführer ist es mir ein besonderes Anliegen, unsere Leistungen in jeder Branche gezielt zu professionalisieren. Unser Anspruch ist es, unseren Kunden jederzeit die bestmöglichen Ergebnisse zu liefern. Vielen Dank für Ihr Vertrauen.',
       rating: 0
     },
@@ -53,7 +53,7 @@ const About = () => {
         <div className="mb-20">
           <div className="text-center mb-16">
             <p className="text-primary font-semibold tracking-wider uppercase text-sm mb-4">
-              Warum TekWeb
+              Warum TekSign
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
               Ihre{' '}
