@@ -115,12 +115,16 @@
 }
 
 @layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+
   * {
     @apply border-border;
   }
 
   body {
-    @apply bg-background text-foreground font-['Inter'] overflow-x-hidden;
+    @apply bg-background text-foreground font-['Inter'];
   }
 }
 
