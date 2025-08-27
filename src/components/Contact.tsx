@@ -33,7 +33,7 @@ const Contact = () => {
     const budget = formData.get("budget") as string;
     const message = formData.get("message") as string;
 
-    const EMAILJS_SERVICE_ID = "service_6n56b8p";
+    const EMAILJS_SERVICE_ID = "service_0ea3qcp";
     const EMAILJS_TEMPLATE_ID = "template_e0pucrr";
     const EMAILJS_PUBLIC_KEY = "wdXpZ5lXSIZ8N4j5S";
 
@@ -128,7 +128,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-semibold">E-Mail</div>
-                    <div className="text-text-secondary">tekweb25@gmail.com</div>
+                    <div className="text-text-secondary">info@teksign.de</div>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">

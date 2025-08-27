@@ -41,7 +41,7 @@ const About = () => {
     {
       name: 'Salih Tekin',
       role: 'TekSign-CEO',
-      content: 'Herzlich willkommen bei TekWeb. Als Geschäftsführer ist es mir ein besonderes Anliegen, unsere Leistungen in jeder Branche gezielt zu professionalisieren. Unser Anspruch ist es, unseren Kunden jederzeit die bestmöglichen Ergebnisse zu liefern. Vielen Dank für Ihr Vertrauen.',
+      content: 'Herzlich willkommen bei TekSign. Als Geschäftsführer ist es mir ein besonderes Anliegen, unsere Leistungen in jeder Branche gezielt zu professionalisieren. Unser Anspruch ist es, unseren Kunden jederzeit die bestmöglichen Ergebnisse zu liefern. Vielen Dank für Ihr Vertrauen.',
       rating: 0
     },
   ];

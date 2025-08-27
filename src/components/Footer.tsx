@@ -39,7 +39,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://www.instagram.com/tekw.eb/"
+                href="https://www.instagram.com/tek.sign/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-background border border-card-border rounded-lg flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary transition-all duration-200"
@@ -98,7 +98,7 @@ const Footer = () => {
                   href="mailto:hello@tekweb.de"
                   className="text-text-secondary hover:text-primary transition-colors duration-200"
                 >
-                  tekweb25@gmail.com
+                  info@teksign.de
                 </a>
               </li>
               <li className="flex items-center space-x-3">
